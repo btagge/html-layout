@@ -1,0 +1,60 @@
+html {
+    height: 100vh;
+}
+
+body {
+    min-height: 100vh;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.bar1 {
+    background-color: rgb(216,216,216);
+    height: calc(100vh/7);
+}
+
+.square {
+    background-color: rgb(78,146,223);
+    height: 100px;
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 20px;
+
+}
+
+.bar2 {
+    background-color: rgb(255,255,255);
+    height: calc(100vh/3.5);
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar3 {
+    background-color: rgb(78,146,223);
+    height: calc(100vh/7);
+}
+
+.bar4 {
+    background-color: rgb(88,226,194);
+    height: calc(100vh/7);
+}
+
+.bar5 {
+    background-color: rgb(185,231,139);
+    height: calc(100vh/7);
+}
+
+.bar6 {
+    background-color: rgb(247,229,59);
+    height: calc(100vh/7);
+}
+
+.text{
+    margin-left: 40px;
+    margin-right: 40px;
+}
